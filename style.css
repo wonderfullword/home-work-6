@@ -16,7 +16,6 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-
 .promo {
   text-align: center;
 }
@@ -63,7 +62,6 @@ body {
   height: 180px;
   background-color: #E2E2E2;
   margin: 0 auto;
-
 }
 
 .rectangle-center {
@@ -81,7 +79,6 @@ body {
   margin: 0 auto;
 }
 
-
 .rectangle-right {
   position: absolute;
   padding-top: 38px;
@@ -96,7 +93,6 @@ body {
   background-color: #E2E2E2;
   margin: 0 auto;
 }
-
 
 .triangle-down {
   position: absolute;
@@ -115,8 +111,44 @@ img {
   bottom: -90px;
 }
 
-.photo-description {
+.photo-description-left {
   position: absolute;
-  margin-top: 500px;
-  margin-left: 100px;
+  top: 440px;
+  left: 160px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.photo-description-center {
+  position: absolute;
+  top: 440px;
+  left: 570px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.photo-description-right {
+  position: absolute;
+  top: 440px;
+  right: 400px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.position-left {
+  position: absolute;
+  top: 480px;
+  left: 170px;
+  font-size: 18px;
+}
+
+.position-center {
+  position: absolute;
+  top: 480px;
+  left: 580px;
+  font-size: 18px;
+}
+
+.position-right {
+  position: absolute;
+  top: 480px;
+  right: 410px;
+  font-size: 18px;
 }

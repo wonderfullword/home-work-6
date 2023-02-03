@@ -1,0 +1,18 @@
+body {
+  counter-reset: section;
+}
+
+h5::before {
+  counter-increment: section;
+  content: "Отдел " counter(section) ": ";
+}
+
+ul {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: section;
+  content: counters(section, ".") " ";
+}
